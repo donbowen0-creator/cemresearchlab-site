@@ -7,6 +7,7 @@ description: "Research hub for the Criminogenic Embeddedness Model (CEM) and the
 author: "Donald Bowen, DBA"
 email: "don@cemresearchlab.com"
 orcid: "0000-0003-3527-9462"
+site_doi: "10.5281/zenodo.22923742"
 location: "Oceana, West Virginia"
 
 # Menu at the top of every page (in this order)
@@ -19,8 +20,10 @@ nav:
     url: /cem/
   - title: REM
     url: /rem/
-  - title: Research
-    url: /research/
+  - title: Publications
+    url: /publications/
+  - title: CV
+    url: /cv/
   - title: Blog
     url: /blog/
   - title: Contact

@@ -5,30 +5,35 @@ subtitle: A life-course model of strain, control, and social learning
 permalink: /cem/
 ---
 
+CEM is a life-course model of offending that integrates strain, social control, and social learning theories into a single relational framework, rather than treating them as competitors.
+
 ## The core idea
 
-Most criminological theories explain one real part of offending:
+The model's organizing premise is that each existing tradition in criminology has identified one genuine component of offending:
 
-| Tradition | What it gets right |
+| Tradition | Component it identifies |
 |---|---|
-| Strain theory | **Motivation**: pressures that push toward crime |
-| Social learning | **Transmission**: how criminal behavior is learned from others |
-| Social control | **Constraint**: bonds that hold behavior in check |
-| Developmental theories | **Trajectories**: how offending changes over the life course |
-| Network theories | **Position**: where a person sits among others |
+| Strain theory | **Motivation** |
+| Social learning theory | **Transmission** |
+| Control theory | **Constraint** |
+| Developmental and life-course theories | **Trajectories** |
+| Network theories | **Position** |
 
-The field has studied these pieces for decades, mostly one at a time. CEM focuses on the structure that forms when they **interact**: how a person's embeddedness in relationships, settings, and institutions shapes whether strain turns into offending, and whether offending persists or ends.
+CEM's contribution is to model the interactional structure these components form when they operate together in a person's life, rather than adding one more component to the list.
 
-> Why do people exposed to the same conditions so often arrive at different outcomes?
+The model is built around **four offending pathways** and a set of **formal propositions**, including a provisional measurement agenda, the **Criminogenic Embeddedness Assessment Score (CEAS)**, for eventually operationalizing embeddedness directly. It was first developed in my 2026 book, *Criminogenic Embeddedness and Criminal Trajectories: A Life-Course Model of Strain, Control, and Social Learning* ([DOI: 10.5281/zenodo.21961664](https://doi.org/10.5281/zenodo.21961664)).
 
-## What the model includes
+> Why do people exposed to the same conditions (the same strain, the same networks, the same disadvantage) so often arrive at different outcomes?
 
-- **Four pathways** describing distinct routes into and through offending
-- **Eight formal propositions** that can be tested with longitudinal data
-- **The Criminogenic Embeddedness Assessment Score (CEAS)**, a provisional measurement agenda for the model's dimensions
+## Empirical testing
 
-## Primary source
+CEM's propositions are being tested against independent, publicly available longitudinal datasets, chosen to check whether findings generalize across a justice-involved sample and a general-population sample:
 
-Bowen, D. (2026). *Criminogenic embeddedness and criminal trajectories: A life-course model (CEM) of strain, control, and social learning.* [https://doi.org/10.5281/zenodo.21961664](https://doi.org/10.5281/zenodo.21961664)
+- **Pathways to Desistance**, a longitudinal study of serious adolescent offenders, used to test CEM against general strain, interactional, and ICAP (Integrated Cognitive Antisocial Potential) theory.
+- **Add Health** (National Longitudinal Study of Adolescent to Adult Health), public-use data from a general-population cohort, focused on adult-onset offending.
 
-See [Research]({{ '/research/' | relative_url }}) for the empirical work testing CEM.
+A third paper, focused on the model's desistance-related propositions (an asymmetric "ratchet" pattern in how embeddedness accumulates and predicts relapse into offending), is in planning. See [Publications]({{ '/publications/' | relative_url }}) for current status.
+
+## Where it began
+
+One strand of this work traces back further than the book itself. My 2019 doctoral dissertation on unemployment, poverty, and recidivism in West Virginia found that macro-level economic strain did not predict recidivism differences, while individual factors such as age and supervision status did: an early, unlabeled version of the question CEM was eventually built to answer.

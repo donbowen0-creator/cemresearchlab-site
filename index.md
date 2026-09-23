@@ -10,7 +10,7 @@ title: Home
 <p class="lede">The Criminogenic Embeddedness Model (CEM) is a life-course theory of how strain, social control, and social learning interact to shape criminal trajectories. This site is the home of CEM, its companion Recovery Embeddedness Model (REM), and the research testing both.</p>
 
 <a class="button" href="{{ '/cem/' | relative_url }}">About CEM</a>
-<a class="button secondary" href="{{ '/research/' | relative_url }}">Research projects</a>
+<a class="button secondary" href="{{ '/publications/' | relative_url }}">Publications</a>
 
 <div class="card">
   <h3>The book</h3>
