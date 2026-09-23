@@ -1,5 +1,5 @@
 # CEM Research Lab website
-
+ [![DOI](https://zenodo.org/badge/1383922225.svg)](https://doi.org/10.5281/zenodo.22923742)
 Source for [cemresearchlab.com](https://cemresearchlab.com), built with Jekyll on GitHub Pages.
 
 ## How to post to the blog (no HTML needed)
