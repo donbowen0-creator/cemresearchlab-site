@@ -82,3 +82,16 @@ code { font-size: .9em; background: var(--accent-soft); padding: 1px 5px; border
   h1 { font-size: 1.8rem; }
   .content { padding-top: 28px; }
 }
+
+/* About page portrait */
+.profile { display: flex; gap: 24px; align-items: flex-start; margin-bottom: 1em; }
+.profile img { width: 160px; height: 160px; border-radius: 50%; object-fit: cover; flex-shrink: 0; border: 1px solid var(--line); }
+.profile p { margin-top: 0; }
+@media (max-width: 600px) { .profile { flex-direction: column; align-items: center; text-align: center; } }
+
+/* CV entries */
+.cv-entry { display: grid; grid-template-columns: 110px 1fr; gap: 4px 16px; margin: .8em 0; }
+.cv-entry .when { font-family: var(--sans); font-size: .9rem; color: var(--muted); padding-top: 3px; }
+.cv-entry p { margin: 0; }
+.cv-entry .sub { color: var(--muted); }
+@media (max-width: 600px) { .cv-entry { grid-template-columns: 1fr; gap: 0; } }
