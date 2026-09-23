@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 <div class="profile">
-  <img src="{{ '/assets/img/headshot.jpg' | relative_url }}" alt="Donald Bowen">
+  <img src="{{ '/headshot.jpg' | relative_url }}" alt="Donald Bowen">
   <div>
     <p><strong>Donald Bowen, DBA</strong><br>
     Independent Researcher · Criminology &amp; Counseling<br>
