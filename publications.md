@@ -13,7 +13,7 @@ permalink: /publications/
   <p><a href="https://doi.org/10.5281/zenodo.21961664">DOI: 10.5281/zenodo.21961664</a> · <a href="https://www.amazon.com/dp/B0HFMHM93F">View on Amazon</a></p>
 </div>
 
-## Manuscripts under review
+## Manuscript under review
 
 <div class="card">
   <p><span class="tag">Under review</span> Journal of Developmental and Life-Course Criminology</p>
@@ -21,12 +21,12 @@ permalink: /publications/
   <p><a href="https://doi.org/10.21203/rs.3.rs-10899848/v1">Preprint at Research Square (DOI: 10.21203/rs.3.rs-10899848/v1)</a></p>
 </div>
 
+## In preparation
+
 <div class="card">
-  <p><span class="tag">Submitted</span> Journal of Criminal Justice</p>
+  <p><span class="tag">In preparation</span></p>
   <p>Bowen, D. Undetected, not absent: Adolescent offending, peer substance use, and the composition of adult-onset arrest in a U.S. national cohort.</p>
 </div>
-
-## In planning
 
 <div class="card">
   <p><span class="tag">In planning</span></p>
