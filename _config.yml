@@ -1,0 +1,40 @@
+# ------------------------------------------------------------------
+# Site settings. Edit the text between the quotes, then commit.
+# ------------------------------------------------------------------
+title: "CEM Research Lab"
+tagline: "Criminogenic Embeddedness Model research program"
+description: "Research hub for the Criminogenic Embeddedness Model (CEM) and the Recovery Embeddedness Model (REM), by Dr. Donald Bowen."
+author: "Donald Bowen, DBA"
+email: "don@cemresearchlab.com"
+orcid: "0000-0003-3527-9462"
+location: "Oceana, West Virginia"
+
+# Menu at the top of every page (in this order)
+nav:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: CEM
+    url: /cem/
+  - title: REM
+    url: /rem/
+  - title: Research
+    url: /research/
+  - title: Blog
+    url: /blog/
+  - title: Contact
+    url: /contact/
+
+# ------------------------------------------------------------------
+# Technical settings - no need to change these.
+# ------------------------------------------------------------------
+permalink: /blog/:year/:month/:title/
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+exclude:
+  - README.md
+  - HOW-TO-POST.md
+  - POST-TEMPLATE.md
