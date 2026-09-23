@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you cite this website, please cite it using the metadata below."
+title: "CEM Research Lab website"
+type: software
+authors:
+  - family-names: "Bowen"
+    given-names: "Donald"
+    orcid: "https://orcid.org/0000-0003-3527-9462"
+    email: "don@cemresearchlab.com"
+abstract: "Source for the CEM Research Lab website, the research hub for the Criminogenic Embeddedness Model (CEM) and the Recovery Embeddedness Model (REM)."
+url: "https://cemresearchlab.com"
+repository-code: "https://github.com/donbowen0-creator/cemresearchlab-site"
+keywords:
+  - criminology
+  - life-course criminology
+  - criminogenic embeddedness
+  - recovery embeddedness
