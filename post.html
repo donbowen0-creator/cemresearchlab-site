@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>New blog post</title>
+<style>
+body{font-family:Georgia,serif;max-width:820px;margin:auto;padding:20px;line-height:1.6;color:#222;}
+header{background:#163A5F;color:white;padding:18px 28px;border-radius:8px;}
+header h1{margin:0;font-size:1.4em;}
+label{display:block;font-weight:bold;margin-top:18px;}
+input,textarea,select{width:100%;box-sizing:border-box;padding:10px;font:inherit;border:1px solid #bbb;border-radius:6px;}
+textarea{min-height:280px;font-family:Georgia,serif;}
+.hint{color:#666;font-size:0.85em;margin:4px 0 0;}
+.row{display:flex;gap:14px;}
+.row>div{flex:1;}
+button{margin-top:20px;background:#163A5F;color:white;border:0;padding:12px 22px;border-radius:6px;font:inherit;font-weight:bold;cursor:pointer;}
+button:disabled{opacity:0.5;cursor:default;}
+button.small{background:#888;padding:4px 10px;margin:0 0 0 10px;font-size:0.8em;}
+.card{background:#f5f5f5;padding:12px 16px;border-radius:8px;margin-bottom:10px;font-size:0.9em;}
+#status{margin-top:18px;padding:12px;border-radius:6px;display:none;}
+#status.ok{display:block;background:#e6f4ea;}
+#status.err{display:block;background:#fdecea;}
+#status.busy{display:block;background:#eef2f7;}
+details{margin-top:20px;}
+summary{cursor:pointer;font-weight:bold;}
+code{background:#eee;padding:1px 5px;border-radius:3px;font-size:0.9em;}
+a{color:#163A5F;}
+</style>
+</head>
+<body>
+
+<header><h1>New blog post</h1></header>
+<p><a href="/">Back to the site</a></p>
+
+<label for="token">GitHub access token</label>
+<input id="token" type="password" autocomplete="off" placeholder="Paste your token here">
+<p class="hint">Needed each time you open this page. It stays in this browser tab only and is never saved to the site.</p>
+
+<label for="title">Title</label>
+<input id="title" type="text" placeholder="Adult-onset arrest study submitted for peer review">
+
+<div class="row">
+<div>
+<label for="date">Date</label>
+<input id="date" type="date">
+</div>
+<div>
+<label for="slug">Web address ending</label>
+<input id="slug" type="text" placeholder="filled in from the title">
+<p class="hint">Lowercase words joined by hyphens.</p>
+</div>
+</div>
+
+<label for="body">Post</label>
+<textarea id="body" placeholder="Write the post here. Leave a blank line between paragraphs.
+
+## A heading looks like this
+
+**Bold text** goes between two stars, and a link looks like [this](https://example.com)."></textarea>
+
+<button id="publish">Publish post</button>
+<div id="status"></div>
+
+<details>
+<summary>Manage existing posts</summary>
+<p class="hint">Enter your token above, then load the list. Deleting removes the post from the site.</p>
+<button class="small" id="load">Load posts</button>
+<div id="list"></div>
+</details>
+
+<details>
+<summary>Settings</summary>
+<label for="repo">Repository (owner/name)</label>
+<input id="repo" type="text">
+<p class="hint">Filled in from this page's address. Change it only if it is wrong.</p>
+<label for="dir">Posts folder</label>
+<input id="dir" type="text" value="_posts">
+<p class="hint">Standard for a Jekyll site. Leave as <code>_posts</code> unless yours differs.</p>
+<label for="layout">Layout name</label>
+<input id="layout" type="text" value="post">
+<p class="hint">Copy this from the top of an existing post if yours uses a different one.</p>
+</details>
+
+<script>
+(function () {
+  var host = location.hostname, parts = location.pathname.split("/").filter(Boolean);
+  parts.pop();                                            // drop post.html
+  var owner = host.endsWith(".github.io") ? host.replace(".github.io", "") : "";
+  var repo = parts.length ? parts[0] : (owner ? owner + ".github.io" : "");
+  document.getElementById("repo").value = owner ? owner + "/" + repo : "";
+  document.getElementById("date").value = new Date().toISOString().slice(0, 10);
+  var saved = sessionStorage.getItem("gh_token");
+  if (saved) document.getElementById("token").value = saved;
+})();
+
+var statusBox = document.getElementById("status");
+function say(msg, cls) { statusBox.className = cls; statusBox.textContent = msg; }
+
+function slugify(t) {
+  return String(t).toLowerCase().replace(/['"’]/g, "").replace(/[^a-z0-9]+/g, "-")
+                  .replace(/^-+|-+$/g, "").slice(0, 60);
+}
+document.getElementById("title").addEventListener("blur", function () {
+  var slug = document.getElementById("slug");
+  if (!slug.value.trim()) slug.value = slugify(this.value);
+});
+
+function toB64(str) {
+  var bytes = new TextEncoder().encode(str), bin = "";
+  bytes.forEach(function (b) { bin += String.fromCharCode(b); });
+  return btoa(bin);
+}
+function fromB64(b64) {
+  var bin = atob(b64.replace(/\s/g, "")), bytes = new Uint8Array(bin.length);
+  for (var i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+  return new TextDecoder().decode(bytes);
+}
+
+function settings() {
+  var token = document.getElementById("token").value.trim();
+  var repo = document.getElementById("repo").value.trim();
+  var dir = document.getElementById("dir").value.trim().replace(/^\/+|\/+$/g, "") || "_posts";
+  if (!token) throw new Error("Paste your GitHub access token first.");
+  if (!/^[^/]+\/[^/]+$/.test(repo)) throw new Error("The repository setting should look like owner/name.");
+  sessionStorage.setItem("gh_token", token);
+  return { token: token, repo: repo, dir: dir };
+}
+
+function api(path, method, body) {
+  var s = settings();
+  return fetch("https://api.github.com/repos/" + s.repo + "/contents/" + path, {
+    method: method || "GET",
+    headers: { "Authorization": "Bearer " + s.token, "Accept": "application/vnd.github+json" },
+    body: body ? JSON.stringify(body) : undefined
+  }).then(function (r) {
+    if (r.status === 404) return null;
+    if (r.status === 401) throw new Error("GitHub rejected the token. Check that it is pasted correctly and has not expired.");
+    if (r.status === 403) throw new Error("The token lacks permission for this repository. It needs Contents: Read and write.");
+    if (r.status === 422) throw new Error("A post with that file name already exists. Change the date or the web address ending.");
+    if (!r.ok) throw new Error("GitHub returned an error (" + r.status + ").");
+    return r.json();
+  });
+}
+
+document.getElementById("publish").onclick = function () {
+  var btn = this;
+  try { settings(); } catch (e) { say(e.message, "err"); return; }
+  var title = document.getElementById("title").value.trim();
+  var date = document.getElementById("date").value;
+  var body = document.getElementById("body").value.trim();
+  var layout = document.getElementById("layout").value.trim() || "post";
+  var slug = (document.getElementById("slug").value.trim() || slugify(title));
+  if (!title || !date || !body) { say("Please fill in the title, date, and post.", "err"); return; }
+
+  var front = "---\nlayout: " + layout + "\ntitle: \"" + title.replace(/"/g, "'") +
+              "\"\ndate: " + date + "\n---\n\n" + body + "\n";
+  var path = settings().dir + "/" + date + "-" + slug + ".md";
+
+  btn.disabled = true; say("Publishing…", "busy");
+  api(path, "PUT", { message: "Blog post: " + title, content: toB64(front) })
+    .then(function () {
+      say("Published as " + path + ". It will appear on the site in a minute or two.", "ok");
+      document.getElementById("title").value = "";
+      document.getElementById("body").value = "";
+      document.getElementById("slug").value = "";
+    })
+    .catch(function (e) { say(e.message, "err"); })
+    .then(function () { btn.disabled = false; });
+};
+
+document.getElementById("load").onclick = function () {
+  var list = document.getElementById("list");
+  list.textContent = "Loading…";
+  var dir;
+  try { dir = settings().dir; } catch (e) { list.textContent = ""; say(e.message, "err"); return; }
+  api(dir).then(function (files) {
+    list.innerHTML = "";
+    if (!files || !files.length) { list.textContent = "No posts found in " + dir + "."; return; }
+    files.sort(function (a, b) { return b.name.localeCompare(a.name); });
+    files.forEach(function (f) {
+      var div = document.createElement("div"); div.className = "card";
+      div.textContent = f.name;
+      var del = document.createElement("button"); del.className = "small"; del.textContent = "Delete";
+      del.onclick = function () {
+        if (!confirm("Delete " + f.name + "? This cannot be undone from this page.")) return;
+        del.disabled = true;
+        api(dir + "/" + f.name, "DELETE", { message: "Delete blog post: " + f.name, sha: f.sha })
+          .then(function () { div.remove(); say("Deleted. The site will update in a minute or two.", "ok"); })
+          .catch(function (e) { say(e.message, "err"); del.disabled = false; });
+      };
+      div.appendChild(del); list.appendChild(div);
+    });
+  }).catch(function (e) { list.textContent = ""; say(e.message, "err"); });
+};
+</script>
+</body>
+</html>
