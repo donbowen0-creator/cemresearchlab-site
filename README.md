@@ -21,6 +21,6 @@ To **edit** a post or page, open the file and click the pencil icon. To **delete
 |---|---|
 | Home page | `index.md` |
 | About, CEM, REM, Publications, CV, Contact | `about.md`, `cem.md`, `rem.md`, `publications.md`, `cv.md`, `contact.md` |
-| Your photo | `assets/img/headshot.jpg` |
+| Your photo | `headshot.jpg` (in the top folder) |
 | Site title, email, menu | `_config.yml` |
 | Colors and fonts | `assets/css/style.css` |

@@ -5,4 +5,4 @@ date: 2026-09-24
 ---
 
 **Adult-onset Arrest**
-The article **Undetected, not absent: Adolescent offending, peer substance use, and the composition of adult-onset arrest in a U.S. national cohort** has been submitted to a journal for review. Once it is published, it will appear here.
+My article on adolescent offending and adult-onset arrest in a U.S. national cohort has been submitted to a journal for review. The full title will appear here once the review is finished.

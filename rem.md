@@ -15,4 +15,4 @@ The starting observation is clinical. In my own practice as a substance abuse co
 
 ## Current status
 
-REM is being tested for statistical support against longitudinal data before any further theoretical development. It remains a working hypothesis, not a finished model. Results will be posted here and on the [blog]({{ '/blog/' | relative_url }}) as they become available.
+REM is being tested for statistical support against longitudinal data before any further theoretical development. The planned analyses were preregistered on the Open Science Framework in October 2026, and the registration will become public at the end of 2026. It remains a working hypothesis, not a finished model. Results will be posted here and on the [blog]({{ '/blog/' | relative_url }}) as they become available.

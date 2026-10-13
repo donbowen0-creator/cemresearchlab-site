@@ -32,7 +32,7 @@ CEM's propositions are being tested against independent, publicly available long
 - **Pathways to Desistance**, a longitudinal study of serious adolescent offenders, used to test CEM against general strain, interactional, and ICAP (Integrated Cognitive Antisocial Potential) theory.
 - **Add Health** (National Longitudinal Study of Adolescent to Adult Health), public-use data from a general-population cohort, focused on adult-onset offending.
 
-A third paper, focused on the model's desistance-related propositions (an asymmetric "ratchet" pattern in how embeddedness accumulates and predicts relapse into offending), is in planning. See [Publications]({{ '/publications/' | relative_url }}) for current status.
+See [Publications]({{ '/publications/' | relative_url }}) for current status.
 
 ## Where it began
 

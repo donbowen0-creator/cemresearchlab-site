@@ -30,8 +30,7 @@ permalink: /cv/
 ## Manuscripts
 
 <div class="cv-entry"><span class="when">Under review</span><div><p>Testing criminogenic embeddedness against general strain, interactional, and ICAP theory using Pathways to Desistance data</p><p class="sub">Journal of Developmental and Life-Course Criminology</p></div></div>
-<div class="cv-entry"><span class="when">In preparation</span><div><p>Undetected, not absent: Adolescent offending, peer substance use, and the composition of adult-onset arrest in a U.S. national cohort</p></div></div>
-<div class="cv-entry"><span class="when">In planning</span><div><p>A desistance-focused test of criminogenic embeddedness's asymmetric-embeddedness propositions</p></div></div>
+<div class="cv-entry"><span class="when">Under review</span><div><p>Adolescent offending and adult-onset arrest in a U.S. national cohort (Add Health)</p><p class="sub">Full title withheld during anonymized review. Analysis code: <a href="https://doi.org/10.5281/zenodo.22908608">DOI: 10.5281/zenodo.22908608</a></p></div></div>
 
 ## Dissertation
 

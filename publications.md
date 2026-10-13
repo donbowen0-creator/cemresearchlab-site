@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Publications
-subtitle: Books, manuscripts under review, and work in preparation.
+subtitle: Books, manuscripts under review, and the dissertation.
 permalink: /publications/
 ---
 
@@ -13,7 +13,7 @@ permalink: /publications/
   <p><a href="https://doi.org/10.5281/zenodo.21961664">DOI: 10.5281/zenodo.21961664</a> · <a href="https://www.amazon.com/dp/B0HFMHM93F">View on Amazon</a></p>
 </div>
 
-## Manuscript under review
+## Manuscripts under review
 
 <div class="card">
   <p><span class="tag">Under review</span> Journal of Developmental and Life-Course Criminology</p>
@@ -21,16 +21,10 @@ permalink: /publications/
   <p><a href="https://doi.org/10.21203/rs.3.rs-10899848/v1">Preprint at Research Square (DOI: 10.21203/rs.3.rs-10899848/v1)</a></p>
 </div>
 
-## Manuscript under review
-
 <div class="card">
-  <p><span class="tag">Under Review</span> Criminology</p>
-  <p>Bowen, D. Undetected, not absent: Adolescent offending, peer substance use, and the composition of adult-onset arrest in a U.S. national cohort.</p>
-</div>
-
-<div class="card">
-  <p><span class="tag">In planning</span></p>
-  <p>Bowen, D. A desistance-focused test of criminogenic embeddedness's asymmetric-embeddedness propositions.</p>
+  <p><span class="tag">Under review</span></p>
+  <p>Bowen, D. Adolescent offending and adult-onset arrest in a U.S. national cohort (Add Health). The full title is withheld while the paper is under anonymized review.</p>
+  <p><a href="https://doi.org/10.5281/zenodo.22908608">Analysis code (DOI: 10.5281/zenodo.22908608)</a></p>
 </div>
 
 ## Doctoral dissertation
