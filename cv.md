@@ -36,6 +36,10 @@ permalink: /cv/
 
 <div class="cv-entry"><span class="when">2019</span><div><p><em>The Impact of Unemployment and Poverty on Recidivism in West Virginia: A Quantitative Analysis</em></p><p class="sub">Northcentral University, DBA Dissertation. ProQuest No. 27737538</p></div></div>
 
+## Honors and affiliations
+
+<div class="cv-entry"><span class="when">2026</span><div><p><strong>Chi Sigma Iota International Counseling Honor Society</strong></p><p class="sub">Omega Zeta Chapter, Walden University. Accepted for membership; induction scheduled November 2026.</p></div></div>
+
 ## Identifiers
 
 <div class="cv-entry"><span class="when">ORCID</span><div><p><a href="https://orcid.org/0000-0003-3527-9462">0000-0003-3527-9462</a></p></div></div>
