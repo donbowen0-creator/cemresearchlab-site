@@ -52,3 +52,7 @@ defaults:
       path: "post.html"
     values:
       sitemap: false
+  - scope:
+      path: "google88094e8f0a80d3bb.html"
+    values:
+      sitemap: false
