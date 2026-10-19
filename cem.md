@@ -23,6 +23,8 @@ CEM's contribution is to model the interactional structure these components form
 
 The model is built around **four offending pathways** and a set of **formal propositions**, including a provisional measurement agenda, the **Criminogenic Embeddedness Assessment Score (CEAS)**, for eventually operationalizing embeddedness directly. It was first developed in my 2026 book, *Criminogenic Embeddedness and Criminal Trajectories: A Life-Course Model of Strain, Control, and Social Learning* ([DOI: 10.5281/zenodo.21961664](https://doi.org/10.5281/zenodo.21961664)).
 
+{% include book-card.html %}
+
 > Why do people exposed to the same conditions (the same strain, the same networks, the same disadvantage) so often arrive at different outcomes?
 
 ## Empirical testing

@@ -12,11 +12,7 @@ title: Home
 <a class="button" href="{{ '/cem/' | relative_url }}">About CEM</a>
 <a class="button secondary" href="{{ '/publications/' | relative_url }}">Publications</a>
 
-<div class="card">
-  <h3>The book</h3>
-  <p><em>Criminogenic Embeddedness and Criminal Trajectories: A Life-Course Model (CEM) of Strain, Control, and Social Learning</em> (2026) introduces the model, its four pathways, eight propositions, and a provisional measurement agenda.</p>
-  <p><a href="https://www.amazon.com/dp/B0HFMHM93F">Amazon</a> · <a href="https://doi.org/10.5281/zenodo.21961664">Zenodo (DOI: 10.5281/zenodo.21961664)</a></p>
-</div>
+{% include book-card.html heading="The book" blurb="introduces the model, its four pathways, eight propositions, and a provisional measurement agenda. The full text is free to read and download." %}
 
 ## Latest from the blog
 

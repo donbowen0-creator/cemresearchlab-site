@@ -1,0 +1,21 @@
+{% comment %}
+  The CEM book card: cover, citation, and links.
+  Used on Home, CEM, and Publications. Edit links here once and every page updates.
+{% endcomment %}
+{% assign book_pdf = "https://zenodo.org/records/21961664/files/Criminogenic_Embeddedness.pdf?download=1" %}
+{% assign book_doi = "10.5281/zenodo.21961664" %}
+<div class="card book">
+  <a class="book-cover" href="{{ book_pdf }}" aria-label="Download the book (PDF)">
+    <img src="{{ '/assets/img/cem-book-cover.jpg' | relative_url }}" alt="Cover of Criminogenic Embeddedness and Criminal Trajectories by Dr. Donald Bowen" width="800" height="894" loading="lazy">
+  </a>
+  <div class="book-body">
+    {% if include.heading %}<h3>{{ include.heading }}</h3>{% endif %}
+    <p><span class="tag">Free PDF</span></p>
+    <p><em>Criminogenic Embeddedness and Criminal Trajectories: A Life-Course Model (CEM) of Strain, Control, and Social Learning</em> (2026){% if include.blurb %} {{ include.blurb }}{% else %}.{% endif %}</p>
+    <p class="book-actions">
+      <a class="button" href="{{ book_pdf }}">Download the book (PDF)</a>
+      <a class="button secondary" href="https://doi.org/{{ book_doi }}">Zenodo record</a>
+    </p>
+    <p class="post-meta">DOI: <a href="https://doi.org/{{ book_doi }}">{{ book_doi }}</a> · Paperback ISBN 979-8192913192 · <a href="https://www.amazon.com/dp/B0HFMHM93F">Amazon</a></p>
+  </div>
+</div>

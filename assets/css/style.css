@@ -95,3 +95,15 @@ code { font-size: .9em; background: var(--accent-soft); padding: 1px 5px; border
 .cv-entry p { margin: 0; }
 .cv-entry .sub { color: var(--muted); }
 @media (max-width: 600px) { .cv-entry { grid-template-columns: 1fr; gap: 0; } }
+
+/* Book card with cover */
+.card.book { display: grid; grid-template-columns: 170px 1fr; gap: 22px; align-items: start; }
+.book-cover { display: block; line-height: 0; }
+.book-cover img { width: 100%; height: auto; border-radius: 3px; box-shadow: 0 4px 14px rgba(0,0,0,.18); border: 1px solid var(--line); }
+.book-body h3 { margin-top: 0; }
+.book-body p { margin: 0 0 .7em; }
+.book-actions { margin: .2em 0 .6em; }
+@media (max-width: 600px) {
+  .card.book { grid-template-columns: 1fr; }
+  .book-cover { max-width: 200px; margin: 0 auto; }
+}

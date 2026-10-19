@@ -7,11 +7,9 @@ permalink: /publications/
 
 ## Book
 
-<div class="card">
-  <p><span class="tag">Published 2026</span></p>
-  <p>Bowen, D. (2026). <em>Criminogenic embeddedness and criminal trajectories: A life-course model of strain, control, and social learning.</em> Independently published. ISBN 979-8192913192.</p>
-  <p><a href="https://doi.org/10.5281/zenodo.21961664">DOI: 10.5281/zenodo.21961664</a> · <a href="https://www.amazon.com/dp/B0HFMHM93F">View on Amazon</a></p>
-</div>
+{% include book-card.html %}
+
+<p class="post-meta">Citation: Bowen, D. (2026). <em>Criminogenic embeddedness and criminal trajectories: A life-course model of strain, control, and social learning.</em> Independently published. https://doi.org/10.5281/zenodo.21961664</p>
 
 ## Manuscripts under review
 
