@@ -11,6 +11,15 @@ permalink: /publications/
 
 <p class="post-meta">Citation: Bowen, D. (2026). <em>Criminogenic embeddedness and criminal trajectories: A life-course model of strain, control, and social learning.</em> Independently published. https://doi.org/10.5281/zenodo.21961664</p>
 
+## Preprints
+
+<div class="card">
+  <p><span class="tag">Preprint 2026</span> CrimRxiv</p>
+  <p>Bowen, D. (2026). <em>Criminogenic embeddedness and criminal trajectories: A life-course model (CEM) of strain, control, and social learning</em> [Preprint]. CrimRxiv.</p>
+  <p><a class="button" href="https://doi.org/10.21428/cb6ab371.434f0413">Read the full paper</a> <a class="button secondary" href="https://www.crimrxiv.com/pub/zmii7cu9/download/pdf">Download PDF</a></p>
+  <p class="post-meta">DOI: <a href="https://doi.org/10.21428/cb6ab371.434f0413">10.21428/cb6ab371.434f0413</a> · Journal-length statement of the model; not peer reviewed.</p>
+</div>
+
 ## Manuscripts under review
 
 <div class="card">
