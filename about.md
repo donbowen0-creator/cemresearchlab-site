@@ -10,7 +10,8 @@ permalink: /about/
     <p><strong>Donald Bowen, DBA</strong><br>
     Independent Researcher · Criminology &amp; Counseling<br>
     Oceana, West Virginia</p>
-    <p>ORCID: <a href="https://orcid.org/0000-0003-3527-9462">0000-0003-3527-9462</a></p>
+    <p>ORCID: <a href="https://orcid.org/0000-0003-3527-9462">0000-0003-3527-9462</a><br>
+    Google Scholar: <a href="https://scholar.google.com/citations?user=W6us_e0AAAAJ">Scholar profile</a></p>
   </div>
 </div>
 

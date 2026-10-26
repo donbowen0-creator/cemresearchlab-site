@@ -43,3 +43,4 @@ permalink: /cv/
 ## Identifiers
 
 <div class="cv-entry"><span class="when">ORCID</span><div><p><a href="https://orcid.org/0000-0003-3527-9462">0000-0003-3527-9462</a></p></div></div>
+<div class="cv-entry"><span class="when">Google Scholar</span><div><p><a href="https://scholar.google.com/citations?user=W6us_e0AAAAJ">Scholar profile</a></p></div></div>
