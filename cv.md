@@ -38,7 +38,7 @@ permalink: /cv/
 
 ## Honors and affiliations
 
-<div class="cv-entry"><span class="when">2026</span><div><p><strong>Chi Sigma Iota International Counseling Honor Society</strong></p><p class="sub">Omega Zeta Chapter, Walden University. Accepted for membership; induction scheduled November 2026.</p></div></div>
+<div class="cv-entry"><span class="when">2026</span><div><p><strong>Chi Sigma Iota, Counseling Academic and Professional Honor Society International</strong></p><p class="sub">Omega Zeta Chapter of Chi Sigma Iota, Walden University. Member in good standing; inducted November 2026.</p></div></div>
 
 ## Identifiers
 
