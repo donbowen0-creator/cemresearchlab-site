@@ -21,10 +21,10 @@ permalink: /publications/
 </div>
 
 <div class="card">
-  <p><span class="tag">Preprint 2026</span> CrimRxiv (in process)</p>
+  <p><span class="tag">Preprint 2026</span> CrimRxiv</p>
   <p>Bowen, D. (2026). <em>Undetected, not absent: Adolescent substance use, unaddressed behavior, and first arrest in adulthood</em> [Preprint]. Uses Add Health public-use data to ask whether adult-onset arrest marks people who were new to offending or people whose adolescent behavior went unnoticed.</p>
-  <p><a class="button secondary" href="https://doi.org/10.5281/zenodo.22908607">Analysis code and results (Zenodo)</a> <a class="button secondary" href="https://github.com/donbowen0-creator/adult-onset-arrest">Code on GitHub</a></p>
-  <p class="post-meta">Code DOI: <a href="https://doi.org/10.5281/zenodo.22908607">10.5281/zenodo.22908607</a> (always resolves to the latest version) · Not peer reviewed. The preprint link will be added here once CrimRxiv posts it.</p>
+  <p><a class="button" href="https://doi.org/10.21428/cb6ab371.e9e0d613">Read the full paper</a> <a class="button secondary" href="https://doi.org/10.5281/zenodo.22908607">Analysis code and results (Zenodo)</a> <a class="button secondary" href="https://github.com/donbowen0-creator/adult-onset-arrest">Code on GitHub</a></p>
+  <p class="post-meta">DOI: <a href="https://doi.org/10.21428/cb6ab371.e9e0d613">10.21428/cb6ab371.e9e0d613</a> · Code DOI: <a href="https://doi.org/10.5281/zenodo.22908607">10.5281/zenodo.22908607</a> · Not peer reviewed.</p>
 </div>
 
 ## Manuscripts under review

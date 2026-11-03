@@ -30,7 +30,7 @@ permalink: /cv/
 ## Manuscripts
 
 <div class="cv-entry"><span class="when">Under review</span><div><p>Testing criminogenic embeddedness against general strain, interactional, and ICAP theory using Pathways to Desistance data</p><p class="sub">Journal of Developmental and Life-Course Criminology</p></div></div>
-<div class="cv-entry"><span class="when">2026</span><div><p>Undetected, not absent: Adolescent substance use, unaddressed behavior, and first arrest in adulthood</p><p class="sub">Preprint, CrimRxiv (in process). Analysis code: <a href="https://doi.org/10.5281/zenodo.22908607">DOI: 10.5281/zenodo.22908607</a></p></div></div>
+<div class="cv-entry"><span class="when">2026</span><div><p>Undetected, not absent: Adolescent substance use, unaddressed behavior, and first arrest in adulthood</p><p class="sub">Preprint, CrimRxiv. <a href="https://doi.org/10.21428/cb6ab371.e9e0d613">DOI: 10.21428/cb6ab371.e9e0d613</a>. Analysis code: <a href="https://doi.org/10.5281/zenodo.22908607">DOI: 10.5281/zenodo.22908607</a></p></div></div>
 
 ## Dissertation
 
