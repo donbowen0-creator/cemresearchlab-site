@@ -15,4 +15,6 @@ The starting observation is clinical. In my own practice as a substance abuse co
 
 ## Current status
 
-REM is being tested for statistical support against longitudinal data before any further theoretical development. The planned analyses were preregistered on the Open Science Framework in October 2026, and the registration will become public at the end of 2026. It remains a working hypothesis, not a finished model. Results will be posted here and on the [blog]({{ '/blog/' | relative_url }}) as they become available.
+REM is being developed as a book, *Recovery Embeddedness and Relapse Trajectories: A Life-Course Model (REM) of Strain, Control, and Social Learning*. A proposal is under consideration at West Virginia University Press.
+
+The first tests of REM, using Pathways to Desistance and NLSY97 data, were preregistered on the Open Science Framework in October 2026, before any of them were run. The registration becomes public at the end of 2026. The results will be reported in the book. REM remains a working model, not a finished one.

@@ -1,4 +1,4 @@
-# CEM Research Lab website
+# Center for Embeddedness and Recovery Research website
 
 [![DOI](https://zenodo.org/badge/1383922225.svg)](https://doi.org/10.5281/zenodo.22923742)
 

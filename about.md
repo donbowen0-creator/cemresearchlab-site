@@ -7,7 +7,8 @@ permalink: /about/
 <div class="profile">
   <img src="{{ '/headshot.jpg' | relative_url }}" alt="Donald Bowen">
   <div>
-    <p><strong>Donald Bowen, DBA</strong><br>
+    <p><strong>Donald Bowen, DBA, MS</strong><br>
+    Director, Center for Embeddedness and Recovery Research<br>
     Independent Researcher · Criminology &amp; Counseling<br>
     Oceana, West Virginia</p>
     <p>ORCID: <a href="https://orcid.org/0000-0003-3527-9462">0000-0003-3527-9462</a><br>
@@ -21,11 +22,19 @@ I hold a Doctor of Business Administration (DBA) in Criminal Justice and two mas
 
 Before that, I spent 29 years in corrections, across both penal and community settings, including 19 years as a supervisor in a correctional facility and management of the McDowell County alternative sentencing program.
 
+## The Center
+
+The Center for Embeddedness and Recovery Research, known until November 2026 as CEM Research Lab, is the home of this work. It is an independent, self-funded research center in Oceana, West Virginia, and is not affiliated with a university. I founded it and serve as its director.
+
 ## Research interests
 
 - Life-course and developmental criminology
 - Integrating strain, control, social learning, and network theories
-- Adult-onset offending and desistance
-- Substance use relapse and recovery
+- Desistance, reentry, and recidivism
+- Substance-use recovery and relapse
+- Corrections and alternatives to incarceration
+- Poverty, unemployment, and justice outcomes
+- Police accountability
+- Rural and Appalachian justice and behavioral health
 
 See my [CV]({{ '/cv/' | relative_url }}) for full details.
