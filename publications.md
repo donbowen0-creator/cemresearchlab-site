@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Publications
-subtitle: Books, preprints, manuscripts under review, and the dissertation.
+subtitle: Books, preprints, manuscripts under review, book proposals, open code, and the dissertation.
 permalink: /publications/
 ---
 
@@ -31,8 +31,47 @@ permalink: /publications/
 
 <div class="card">
   <p><span class="tag">Under review</span> Journal of Developmental and Life-Course Criminology</p>
-  <p>Bowen, D. Testing criminogenic embeddedness against general strain, interactional, and ICAP theory using Pathways to Desistance data.</p>
+  <p>Bowen, D. Testing criminogenic embeddedness against general strain, interactional, and integrated cognitive antisocial potential theories: Evidence from the Pathways to Desistance study.</p>
   <p><a href="https://doi.org/10.21203/rs.3.rs-10899848/v1">Preprint at Research Square (DOI: 10.21203/rs.3.rs-10899848/v1)</a></p>
+</div>
+
+<div class="card">
+  <p><span class="tag">Under review</span> Journal of Drug Issues</p>
+  <p>Bowen, D. Undetected, not absent: Adolescent substance use, unaddressed behavior, and first arrest in adulthood.</p>
+  <p><a href="https://doi.org/10.21428/cb6ab371.e9e0d613">Preprint at CrimRxiv (DOI: 10.21428/cb6ab371.e9e0d613)</a></p>
+</div>
+
+<div class="card">
+  <p><span class="tag">Under review</span></p>
+  <p>Bowen, D. A study of the within-person timing of desistance correlates, using Pathways to Desistance data. The full title will appear here once the review is finished.</p>
+  <p><a href="https://doi.org/10.5281/zenodo.23328938">Analysis code (Zenodo, DOI: 10.5281/zenodo.23328938)</a></p>
+</div>
+
+## Book proposals under consideration
+
+<div class="card">
+  <p><span class="tag">Proposal</span> Springer Nature</p>
+  <p>Bowen, D. <em>Criminogenic embeddedness: Crime between persons and institutions.</em> A theory monograph extending CEM.</p>
+</div>
+
+<div class="card">
+  <p><span class="tag">Proposal</span> West Virginia University Press</p>
+  <p>Bowen, D. <em>Recovery embeddedness and relapse trajectories: A life-course model (REM) of strain, control, and social learning.</em></p>
+</div>
+
+## In preparation
+
+<div class="card">
+  <p>Bowen, D. <em>Poverty after prison: Post-release household poverty and reincarceration in the NLSY97</em> (working title).</p>
+</div>
+
+## Open science
+
+<div class="card">
+  <p>Bowen, D. (2026). <em>Recovery Embeddedness Model: Preregistered tests using Pathways to Desistance and NLSY97 data</em> [Preregistration]. OSF. Embargoed through December 2026.</p>
+  <p>Bowen, D. (2026). <em>Adult-onset offending and arrest in Add Health: Analysis code</em> (Version 1.0.1). Zenodo. <a href="https://doi.org/10.5281/zenodo.22908607">DOI: 10.5281/zenodo.22908607</a></p>
+  <p>Bowen, D. (2026). <em>R code for RI-CLPM analyses of desistance correlates in the Pathways to Desistance study.</em> Zenodo. <a href="https://doi.org/10.5281/zenodo.23328938">DOI: 10.5281/zenodo.23328938</a></p>
+  <p class="post-meta">All empirical analysis code is paired with its project and released in versioned, open, citable form.</p>
 </div>
 
 ## Doctoral dissertation
