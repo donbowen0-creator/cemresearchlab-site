@@ -90,6 +90,7 @@ Life-course and developmental criminology; desistance, reentry, and recidivism; 
 
 ## Honors and memberships
 
+<div class="cv-entry"><span class="when">2026–Present</span><div><p><strong>National Coalition of Independent Scholars (NCIS)</strong></p><p class="sub">Associate Member. Joined November 2026.</p></div></div>
 <div class="cv-entry"><span class="when">2026</span><div><p><strong>Chi Sigma Iota, Counseling Academic and Professional Honor Society International</strong></p><p class="sub">Omega Zeta Chapter, Walden University. Inducted November 2026.</p></div></div>
 <div class="cv-entry"><span class="when">2013</span><div><p><strong>Summa cum laude</strong></p><p class="sub">B.S. in Criminal Justice, Grand Canyon University.</p></div></div>
 

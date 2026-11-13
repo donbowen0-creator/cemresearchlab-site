@@ -76,6 +76,9 @@ code { font-size: .9em; background: var(--accent-soft); padding: 1px 5px; border
 .footer-inner { padding-top: 20px; padding-bottom: 28px; }
 .footer-inner p { margin: 4px 0; }
 .site-footer a { color: var(--muted); }
+.footer-badge { margin-top: 12px !important; }
+.footer-badge a { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; }
+.footer-badge img { width: 48px; height: auto; }
 
 @media (max-width: 600px) {
   body { font-size: 1.05rem; }
